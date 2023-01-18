@@ -10,7 +10,9 @@ a:visited {
     text-decoration: none;
 }
 img {
-    margin: 20px;
-    padding: 20px;
-    border:2px solid black;
+    height: 324px;
+    width: 576px;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid black;
 }
