@@ -1,16 +1,17 @@
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     text-align: justify;
     padding: 0px;
     margin: 0px;
 }
 header {
-    margin: 20px;
+    margin: 40px;
+    padding: 25px;
     background-color: #fff;
 }
 body {
-    background-color: #ededed;
+    background-color: #fff;
 }
 .home {
     display: flex;
@@ -18,8 +19,17 @@ body {
 }
 .title {
     text-align: center;
-    font-size: 22px;
+    font-style: bold;
+    font-size: 28px;
     background-color: #fff;
+}
+td {
+    text-align: center;
+}
+td.desc {
+    padding: 45px;
+    margin: 10px;
+    background-color: #ededed;
 }
 .jaciments {
     flex: 1;
