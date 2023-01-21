@@ -5,6 +5,10 @@
     padding: 0px;
     margin: 0px;
 }
+header {
+    margin: 20px;
+    background-color: #fff;
+}
 body {
     background-color: #ededed;
 }
