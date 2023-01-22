@@ -15,6 +15,13 @@ header {
     background-color: #fff;
     font-size: 20px;
 }
+header.img {
+    height: 600px;
+    width: 960px;
+    margin: 2px;
+    padding: 2px;
+    align-self: center;
+}
 body {
     background-color: #fff;
 }
@@ -69,6 +76,12 @@ img {
     margin: 2px;
     padding: 2px;
     border: 1px solid black;
+}
+iframe {
+    height: 324px;
+    width: 576px;
+    margin: 2px;
+    padding: 2px;
 }
 footer {
     font-size: 14px;
