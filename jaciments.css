@@ -5,10 +5,15 @@
     padding: 0px;
     margin: 0px;
 }
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
 header {
     margin: 40px;
     padding: 25px;
     background-color: #fff;
+    font-size: 20px;
 }
 body {
     background-color: #fff;
