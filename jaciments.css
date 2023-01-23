@@ -15,6 +15,9 @@ header {
     background-color: #fff;
     font-size: 20px;
 }
+.az {
+    text-align: center;
+}
 body {
     background-color: #fff;
 }
@@ -79,6 +82,9 @@ img {
     margin: 2px;
     padding: 2px;
     border: 1px solid black;
+}
+enlaces > a {
+    text-align: center;
 }
 iframe {
     height: 324px;
