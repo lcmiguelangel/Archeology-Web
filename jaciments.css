@@ -1,6 +1,70 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+header {
+    margin: 40px;
+    padding: 25px;
+    background-color: #fff;
+    font-size: 20px;
+}
+body {
+    background-color: #fff;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+    font-style: bold;
+    font-size: 28px;
+    background-color: #fff;
+}
+td {
+    text-align: center;
+}
+td.desc {
+    padding: 25px;
+    margin: 10px;
+    background-color: #ededed;
+}
+td > img {
+    width: 576px;
+    height: 324px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+}
+p {
+    overflow-wrap: break-word;
+}
+.jaciments {
+    flex: 1;
+    min-width: 250px;
+}
+.jaciments:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+.jaciments div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
 a {
     color: darkblue;
     text-decoration: none;
+    font-size: 20px;
 }
 a:hover {
    text-decoration: underline; 
@@ -10,9 +74,19 @@ a:visited {
     text-decoration: none;
 }
 img {
+    height: 33%;
+    width: 33%;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+}
+iframe {
     height: 324px;
     width: 576px;
-    margin: 4px;
-    padding: 4px;
-    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+footer {
+    font-size: 14px;
+    text-align: right;
 }
