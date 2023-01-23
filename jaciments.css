@@ -8,6 +8,10 @@
 h1 {
     text-align: center;
     font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 1px black; 
 }
 header {
     margin: 40px;
@@ -15,8 +19,12 @@ header {
     background-color: #fff;
     font-size: 20px;
 }
-.az {
-    text-align: center;
+header.img {
+    height: 600px;
+    width: 960px;
+    margin: 2px;
+    padding: 2px;
+    align-self: center;
 }
 body {
     background-color: #fff;
@@ -35,19 +43,15 @@ td {
     text-align: center;
 }
 td.desc {
-    padding: 25px;
+    padding: 45px;
     margin: 10px;
     background-color: #ededed;
 }
-td > img {
-    width: 576px;
-    height: 324px;
-    margin: 2px;
-    padding: 2px;
-    border: 1px solid black;
-}
 p {
-    overflow-wrap: break-word;
+    margin: 20px;
+    padding: 20px;
+    overflow-wrap: break-all;
+    word-break: break-all;
 }
 .jaciments {
     flex: 1;
@@ -77,8 +81,8 @@ a:visited {
     text-decoration: none;
 }
 img {
-    height: 33%;
-    width: 33%;
+    height: 324px;
+    width: 576px;
     margin: 2px;
     padding: 2px;
     border: 1px solid black;
