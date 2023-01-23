@@ -43,6 +43,10 @@ td.desc {
     margin: 10px;
     background-color: #ededed;
 }
+p {
+    overflow-wrap: break-all;
+    word-break: break-all;
+}
 .jaciments {
     flex: 1;
     min-width: 250px;
