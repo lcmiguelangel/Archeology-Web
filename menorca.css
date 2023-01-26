@@ -4,10 +4,11 @@ header {							/*header*/
 	justify-content: center;
 	background-color: grey;
 }
- img{
+ img {
 	display: flex;
 	align-items:center;
-	height: 65%;		}
+	height: 65%;
+}
 
 .contenidor_botons{
 	display: grid;
@@ -28,7 +29,8 @@ header {							/*header*/
     margin-bottom: 0px;
 }
 
-.button{display: flex;
+.button {
+	display: flex;
 	align-items:center;
 	height: 65%;
 }

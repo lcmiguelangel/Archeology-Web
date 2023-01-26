@@ -20,13 +20,6 @@ header {
     font-size: 20px;
     border: 1px solid black;
 }
-header.img {
-    height: 600px;
-    width: 960px;
-    margin: 2px;
-    padding: 2px;
-    align-self: center;
-}
 div.bio > h3 > p {
     font-size: 32px;
     border: 1px solid black;
