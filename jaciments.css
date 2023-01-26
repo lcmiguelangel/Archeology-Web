@@ -22,11 +22,14 @@ header {
 }
 button {
     text-decoration: none;
-    height: 25px;
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
     align-self: flex-end;
 }
 button > a {
-    font-size: 15px;
+    font-size: 18px;
 }
 div.bio > h3 > p {
     font-size: 32px;
@@ -103,7 +106,16 @@ img {
     border: 1px solid black;
 }
 .enlaces > a {
+    height: 100px;
+    width: 150px;
     text-align: center;
+}
+a > img {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 iframe {
     height: 324px;
