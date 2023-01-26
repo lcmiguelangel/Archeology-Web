@@ -2,20 +2,14 @@ header {							/*header*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	height: 75%
-	 }
+	background-color: antiquewhite;
+	padding: 15px;
+    border-radius: 25px ;}
+
 
   header > img{
-	height: 200px;
+	height: 150px;
 		}
-
-.contenidor_botons{
-	display: flex;
-	align-items:center;
-}
-
-.button{height: 65%;
-}
 
 *{box-sizing:border-box;}                   /*formulari*/
 
