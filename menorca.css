@@ -2,13 +2,12 @@ header {							/*header*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: grey;
+	height: 75%
 	 }
 
-  .logo img{
-	display: flex;
-	align-items:center;
-	height: 65%;		}
+  header > img{
+	height: 200px;
+		}
 
 .contenidor_botons{
 	display: grid;
