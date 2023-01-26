@@ -7,16 +7,34 @@
 }
 h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 0.7px black; 
 }
 header {
     margin: 40px;
     padding: 25px;
-    background-color: #fff;
+    background-color: burlywood;
     font-size: 20px;
+    border: 1px solid black;
 }
-.az {
-    text-align: center;
+header.img {
+    height: 600px;
+    width: 960px;
+    margin: 2px;
+    padding: 2px;
+    align-self: center;
+}
+div.bio > h3 > p {
+    font-size: 32px;
+    border: 1px solid black;
+    margin: 40px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 0.7px black; 
 }
 body {
     background-color: #fff;
@@ -35,20 +53,20 @@ td {
     text-align: center;
 }
 td.desc {
-    padding: 25px;
-    margin: 10px;
-    background-color: #ededed;
-}
-td > img {
-    width: 576px;
-    height: 324px;
-    margin: 2px;
-    padding: 2px;
+    font-size: 28px;
     border: 1px solid black;
+    margin: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 0.5px black; 
 }
 p {
-    overflow-wrap: break-word;
-}
+    margin: 20px;
+    padding: 20px;
+    overflow-wrap: break-all;
+} 
 .jaciments {
     flex: 1;
     min-width: 250px;
@@ -67,7 +85,7 @@ p {
 a {
     color: darkblue;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
 }
 a:hover {
    text-decoration: underline; 
@@ -77,22 +95,20 @@ a:visited {
     text-decoration: none;
 }
 img {
-    height: 33%;
-    width: 33%;
-    margin: 2px;
-    padding: 2px;
+    height: 324px;
+    width: 576px;
     border: 1px solid black;
 }
-enlaces > a {
+.enlaces > a {
     text-align: center;
 }
 iframe {
     height: 324px;
     width: 576px;
-    margin: 2px;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
 }
 footer {
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
 }
