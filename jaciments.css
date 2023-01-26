@@ -65,6 +65,8 @@ td.desc {
 p {
     margin: 20px;
     padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
     overflow-wrap: break-all;
 } 
 .jaciments {
