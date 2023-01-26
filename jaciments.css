@@ -23,7 +23,7 @@ header {
 button {
     text-decoration: none;
     height: 25px;
-    align-self: center;
+    align-self: flex-end;
 }
 button > a {
     font-size: 15px;
