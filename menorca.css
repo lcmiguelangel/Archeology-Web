@@ -2,37 +2,19 @@ header {							/*header*/
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: grey;
-}
- img {
-	display: flex;
-	align-items:center;
-	height: 65%;
-}
+	height: 75%
+	 }
+
+  header > img{
+	height: 200px;
+		}
 
 .contenidor_botons{
-	display: grid;
-	width:100%;
-}
-.home {
-    display: flex;
-    flex-wrap: wrap;
-}
-.jaciments {
-    flex: 1;
-    min-width: 250px;
-}
-.jaciments:first-child {
-    flex: 2;
-    padding: 25px;
-    background-color: #fff;
-    margin-bottom: 0px;
-}
-
-.button {
 	display: flex;
 	align-items:center;
-	height: 65%;
+}
+
+.button{height: 65%;
 }
 
 *{box-sizing:border-box;}                   /*formulari*/
@@ -96,4 +78,3 @@ textarea{
     width: 100%;
     color: white;
   }
-a:visited {text-decoration: none;}
