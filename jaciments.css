@@ -110,12 +110,16 @@ img {
     width: 150px;
     text-align: center;
 }
+.enlaces > p {
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+}
+
 a > img {
-    height: 100px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 150px;
+    width: 210px;
+    position: relative;
 }
 iframe {
     height: 324px;
