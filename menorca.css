@@ -1,3 +1,5 @@
+body{background-color:#F5F5F5;}
+
 header {							/*header*/
 	display: flex;
 	flex-direction: row;
@@ -8,8 +10,22 @@ header {							/*header*/
     border-radius: 25px ;}
 
 
-  header > img{
+header > img{
 	height: 150px;
+		}
+
+.video-responsive {
+			overflow:hidden;
+			padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+			position:relative;
+			height:0;
+		}
+.video-responsive iframe{
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
 		}
 
 *{box-sizing:border-box;}                   /*formulari*/
@@ -65,19 +81,33 @@ textarea{
 	display:block;
 }
 
-.botons{text-align: center;}
+.botons{display:flex;
+	text-align: center;
+	justify-content: space-evenly;}
 
+.boto{
+    background-color: #F0FFF0;
+    border: 3px solid red;
+    color: black;
+    padding: 15px 32px;
+    
+    display: inline-block;
+    font-size: 20px;
+	border-color: #191970;
+	
+}
 
-footer {                                       /*peu de pàgina*/
+a:link, a:visited {
+	text-decoration: none;
+  }
+
+#footer {                                       /*peu de pàgina*/
     background-color: #D2B48C;
     position: relative;
-    bottom: 0;
+	bottom: 0;
 	height:100%;
     width: 100%;
     color: black;
 	padding: 25px;
 	border-radius: 10px ;
   }
-
-  #footer {display: flex;
-align-items: ;}
