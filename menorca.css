@@ -1,3 +1,5 @@
+body{background-color:#F5F5F5;}
+
 header {							/*header*/
 	display: flex;
 	flex-direction: row;
@@ -8,9 +10,10 @@ header {							/*header*/
     border-radius: 25px ;}
 
 
-  header > img{
+header > img{
 	height: 150px;
 		}
+
 
 *{box-sizing:border-box;}                   /*formulari*/
 
@@ -65,8 +68,25 @@ textarea{
 	display:block;
 }
 
-.botons{text-align: center;}
+.botons{display:flex;
+	text-align: center;
+	justify-content: space-evenly;}
 
+.boto{
+    background-color: #F0FFF0;
+    border: 3px solid red;
+    color: black;
+    padding: 15px 32px;
+    
+    display: inline-block;
+    font-size: 20px;
+	border-color: #191970;
+	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  }
 
 footer {                                       /*peu de pàgina*/
     background-color: #D2B48C;
@@ -80,4 +100,7 @@ footer {                                       /*peu de pàgina*/
   }
 
   #footer {display: flex;
-align-items: ;}
+	text-align: left;
+	justify-content: space-evenly;
+}
+
