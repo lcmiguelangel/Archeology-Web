@@ -20,13 +20,16 @@ header {
     font-size: 20px;
     border: 1px solid black;
 }
+.but {
+    display: flex;
+    justify-content: center;
+}
 button {
     text-decoration: none;
     height: 40px;
     width: 80px;
     font-size: 18px;
     text-align: center;
-    align-self: flex-end;
 }
 button > a {
     font-size: 18px;
@@ -39,6 +42,10 @@ div.bio > h3 > p {
     background-color: burlywood;
     color: aliceblue;
     -webkit-text-stroke: 0.7px black; 
+}
+.imag {
+    display: flex;
+    justify-content: center;
 }
 body {
     background-color: #fff;
@@ -88,6 +95,16 @@ p {
     background-color: #fff;
     margin: 20px;
 }
+.jaciments > p {
+    font-size: 28px;
+    border: 1px solid black;
+    margin: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 0.5px black; 
+}
 a {
     color: darkblue;
     text-decoration: none;
@@ -105,17 +122,80 @@ img {
     width: 576px;
     border: 1px solid black;
 }
-.enlaces > a {
-    height: 100px;
-    width: 150px;
+.enlaces > p {
+    font-size: 28px;
+    margin: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    -webkit-text-stroke: 0.6px black; 
     text-align: center;
 }
 a > img {
-    height: 100px;
-    width: 150px;
+    height: 20%;
+    width: 20%;
+    margin-top: 25px;
+}
+fieldset {
+    font-size: 28px;
+    border: 1px solid black;
+    margin: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: burlywood;
+    color: aliceblue;
+    -webkit-text-stroke: 0.5px black; 
+    margin-bottom: 20px;
+}
+legend {
+    font-size: 40px;
+    padding: 2px;
+    margin-left: 30px;
+    background-color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.col1 {
+    margin-left: 30px;
+    background-color: burlywood;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue; 
+}
+.col1 > p {
+    font-size: 40px;
+}
+.col2 {
+    margin-left: 30px;
+    background-color: burlywood;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue; 
+}
+.col2 > p {
+    font-size: 40px;
+}
+.col3 {
+    margin-left: 30px;
+    background-color: burlywood;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue; 
+    margin-bottom: 25px;
+}
+.col3 > p {
+    font-size: 40px;
+}
+.col3 > ul > p {
+    font-size: 40px;
+}
+li > a {
+    margin-left: 60px;
+}
+.video {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 iframe {
     height: 324px;
@@ -127,4 +207,3 @@ footer {
     font-size: 16px;
     text-align: right;
 }
-
